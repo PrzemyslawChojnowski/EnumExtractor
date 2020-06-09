@@ -9,6 +9,7 @@ e.g. (bash) `./EnumExtractor.exe i o`
 
 e.g. C# input: 
 
+```C#
 public class ColorTypes
 {
 	Red = 1,
@@ -16,9 +17,11 @@ public class ColorTypes
 	Black = 3,
 	Green = 4
 }
+```
 
 equivalent JS output:
 
+```JS
 const colorTypesDict = {
 	red: 1,
 	blue: 2,
@@ -27,3 +30,4 @@ const colorTypesDict = {
 };
 
 export default colorTypesDict;
+```
